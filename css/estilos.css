@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Josefin+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+	font-size: 16px;
+ 	color: #595959;
+  	background-color: #fff;
+    height: 100%;
+}
+
+/* Encabezado */
+header {
+    background-color: #009999;
+    width: 100%;
+    height: 100px;
+}
+header h1{
+    font-family: 'Arima Madurai';
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 100px;
+}
+
+
+
+
+/* Contenido */
+.contenido {
+    min-height: 100%;
+    margin-bottom: -100px;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    overflow: auto;
+    align-items: center;
+}
+.contenido h2 {
+    font-family: 'Arima Madurai';
+    font-size: 1.3em;
+}
+.contenido img {
+    width: 90%;
+    border: 3px solid #595959;
+}
+.bien, .mal {
+    padding: 50px;
+    text-align: center;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+/* Pie de Página */
+footer {
+    height: 100px;
+    position: relative;
+    clear: both;
+    background-color: #009999;
+    padding: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+}
+footer p {
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 10px;
+}
+footer ul li{
+    display: inline;
+    padding: 10px;
+}
+footer ul li a{
+    color: #674d3c;
+}
+
+
+

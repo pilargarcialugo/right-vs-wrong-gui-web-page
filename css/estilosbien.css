@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Josefin+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+ 	color: #fff;
+  	background-color: #674d3c;
+    
+}
+
+/* Encabezado */
+header {
+    align-items: center;
+    background-color: #fff2df;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+}
+.encabezado, .inicio {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+	background: url('../imgs/logo4.png') no-repeat;
+ 	width: 150px;
+  	height: 165px;
+    float: left;
+}
+.title {
+    float: left;
+    line-height: 150px;
+}
+.title h1{
+    padding-top: 15px;
+    font-family: 'Arima Madurai';
+}
+.title a{
+    text-decoration: none;
+    color: #674d3c;
+    font-size: 2.5em;
+}
+
+
+/* Menu de navegación */
+.menunav {
+    clear: both;
+    width: 300px;
+    margin: 30px;
+    background-color: #fff2df;
+    border-radius: 20px;
+    padding: 15px;
+}
+.menunav nav{
+    padding: 30px;
+}
+.menunav ul{
+    list-style: none;
+}
+.menunav ul li {
+    padding: 10px;
+}
+.menunav ul a {
+    text-decoration: none;
+    color: #674d3c;
+    font-size: 1.2em;
+    font-family: 'Arima Madurai';
+    padding: 2px;
+}
+.menunav ul li a.mnav:hover{
+    padding-right: 60px;
+}
+.menunav ul li a.rnav:hover{
+    padding-right: 28px;
+}
+.menunav ul a:hover {
+    text-decoration: none;
+    color: #fff2df;
+    background-color: #674d3c;
+    border-radius: 15px;
+}
+.menunav ul a:focus{
+    color: #fff;
+}
+.menunav nav ul li i {
+    padding-right: 10px;
+}
+.menunav .fa-map-marker {
+    padding-left: 5px;
+    padding-right: 13px;
+}
+.menunav .fa-cutlery {
+    padding-left: 3px;
+}
+.menunav .login {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #e0876a;
+    border-radius: 35px;
+    width: 80%;
+    margin: auto;
+}
+.menunav .login p {
+    text-align: center;
+}
+.menunav .login p a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Arima Madurai';
+    font-size: 1.2em;
+}
+
+
+
+
+/* Contenido: Especiales, Quiénes Somos y Contacto */
+.contenido {
+    clear: both;
+}
+.contenidomenu {
+    
+}
+.contacto, .menuR{
+    text-align: center;
+    padding: 10px;
+}
+.menuR img {
+    width: 80%;
+    height: 80%;
+}
+.especiales {
+    text-align: center;
+    padding-top: 60px;
+}
+.especiales .comida {
+    display: flex;
+    justify-content: center;
+}
+.especiales img{
+    width: 95%;
+    height: 95%;
+}
+.especiales .l, .especiales .p, .especiales .s {
+    float: left;
+}
+.especiales p{
+    text-align: center;
+    font-family: 'Arima Madurai';
+    font-weight: bold;
+    padding: 10px;
+    background-color: #e0876a;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nosotros{
+    margin-top: 100px;
+}
+.contacto {
+    padding-top: 60px;
+}
+.contacto table td {
+    padding: 5px;
+    text-align: left;
+}
+.tabla {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/* Pie de Página */
+footer {
+    background-color: #fff2df;
+    padding: 35px;
+    color: #674d3c;
+    text-align: center;
+    font-size: 0.8em;
+}
+footer p {
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 10px;
+}
+footer ul li{
+    display: inline;
+    padding: 10px;
+}
+footer ul li a{
+    color: #674d3c;
+}
+
+
+
+
+/* Generales */
+.centro {
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    padding-bottom: 15px;
+    font-family: 'Arima Madurai';
+    font-size: 1.5em;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    padding: 5px 40px 5px 40px;
+}
+
+
+.row {
+  width: 100%;
+  padding: 25px 25px 0px 25px;
+}
+/* Media Queries */
+/* Tablet - Mobile Version */
+@media (max-width: 991px) {
+    .inicio {
+        display: flex;
+        flex-direction: column; 
+    }
+    .menunav {
+        
+        width: 300px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenidomenu{
+        width: 70%;
+        height: 70%;
+        margin: auto;
+    }
+    header {
+        height: 100px;
+        padding: 10px;
+    }
+    .logo {
+        background: url('../imgs/logomin4.png') no-repeat;
+        width: 80px;
+        height: 88px;
+    }
+    .title {
+        line-height: 80px;
+    }
+    .title h1{
+        padding-top: 5px;
+    }
+    .title a{
+        font-size: 1.5em;
+    }
+
+}
+
+

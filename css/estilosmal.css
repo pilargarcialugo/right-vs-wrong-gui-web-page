@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+ 	color: #ffff4d;
+  	background-color: #00cc00;
+    
+}
+
+header {
+    border: 2px dashed #66ff66;
+    margin: 35px;
+}
+.logo {
+	background: url('../imgs/logo3.jpg') no-repeat;
+ 	width: 100px;
+  	height: 100px;
+    float: right;
+}
+.title h1{
+    padding-top: 15px;
+    font-family: 'Mr De Haviland';
+    font-size: 1.2em;
+}
+.title a{
+    text-decoration: none;
+    color: #ff3300;
+    font-size: 1em;
+}
+.menuR img {
+    width: 200px;
+    height: 150px;
+    float: right;
+}
+.login {
+    color: #000;
+    float: right;
+}
+
+
+a:hover {
+    cursor: progress;
+}
+
+
+.centro {
+    text-align: center;
+    padding: 10px;
+}
+.rojo {
+    color: red;
+}
+
+footer {
+    clear: both;
+    background-color: #fff2df;
+    padding: 35px;
+    color: #674d3c;
+    text-align: center;
+    font-size: 0.8em;
+}
